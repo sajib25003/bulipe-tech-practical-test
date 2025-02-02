@@ -1,7 +1,11 @@
 # Bulipe Tech Practical Test
 
-To clone the project in your device:
+## To clone the project in your device:
 `git clone `
-To Run the Project in Development mode:
+## To Run the Project in Development mode:
 `npm run dev`
 
+- React + Vite
+- Tailwind CSS
+- DaisyUI
+- 
