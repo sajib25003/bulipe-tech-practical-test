@@ -3,7 +3,9 @@ import SectionHeading from "../sharedComponents/SectionHeading";
 const Community = () => {
   return (
     <section className="my-10 bg-[#000] py-[2%] px-[10%]">
-      <SectionHeading title={"Our Community"}></SectionHeading>
+      <div className="text-white">
+        <SectionHeading title={"Our Community"}></SectionHeading>
+      </div>
 
       <div className="w-1/2 mt-6">
         <p className="text-white opacity-80">

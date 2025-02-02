@@ -8,6 +8,7 @@ import NavBar from "./Components/NavBar";
 import Partners from "./Components/Partners";
 import Testimonials from "./Components/Testimonials";
 import TopBar from "./Components/TopBar";
+import WhatWeDo from "./Components/WhatWeDo";
 
 function App() {
   return (
@@ -15,12 +16,14 @@ function App() {
       <TopBar />
 
       <NavBar />
+
+      <WhatWeDo />
       <Community />
       <div className="mx-[10%]">
         <Partners />
       </div>
       <Testimonials />
-      <LatestNews/>
+      <LatestNews />
       <Advertise />
       <Footer2 />
       <Footer />
