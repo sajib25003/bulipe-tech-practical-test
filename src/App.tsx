@@ -1,4 +1,5 @@
 import "./App.css";
+import Advertise from "./Components/Advertise";
 import Footer from "./Components/Footer";
 import Footer2 from "./Components/Footer2";
 import NavBar from "./Components/NavBar";
@@ -10,7 +11,7 @@ function App() {
       <TopBar />
 
       <NavBar />
-
+      <Advertise/>
       <Footer2 />
       <Footer />
     </div>
