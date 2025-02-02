@@ -82,6 +82,7 @@ const LatestNews = () => {
               <button className="flex items-center gap-2 btn btn-outline border-[#004464] text-[#004464] rounded-2xl mt-6">
                 Read More <FaArrowRight />
               </button>
+              
             </div>
             
           </div>
