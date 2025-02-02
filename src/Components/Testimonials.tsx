@@ -5,7 +5,10 @@ const Testimonials = () => {
   return (
     <section className="my-10 bg-[#F2F2F2] py-[2%] px-[10%]">
       <div className="flex justify-between items-center ">
-        <h3 className="text-[#242424] font-bold text-3xl ">Testimonials</h3>
+        <div>
+          <h3 className="text-[#242424] font-bold text-3xl ">Testimonials</h3>
+          <hr className="w-20 border-t-2 border-[#F15B2D] mt-2" />
+        </div>
         <div className="flex items-center">
           <CiCircleChevLeft className="text-3xl" />
           <CiCircleChevRight className="text-3xl" />
