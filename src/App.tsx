@@ -3,6 +3,7 @@ import Advertise from "./Components/Advertise";
 import Footer from "./Components/Footer";
 import Footer2 from "./Components/Footer2";
 import NavBar from "./Components/NavBar";
+import Testimonials from "./Components/Testimonials";
 import TopBar from "./Components/TopBar";
 
 function App() {
@@ -11,7 +12,10 @@ function App() {
       <TopBar />
 
       <NavBar />
-      <Advertise/>
+      <div className="mx-[10%]">
+      </div>
+        <Testimonials />
+      <Advertise />
       <Footer2 />
       <Footer />
     </div>
