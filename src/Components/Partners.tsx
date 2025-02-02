@@ -3,15 +3,14 @@ import IBM from "../assets/IBM.png";
 import hostinger from "../assets/hostinger.png";
 import digitalOcean from "../assets/digitalOcean.png";
 import microsoft from "../assets/microsoft.png";
+import SectionHeading from "../sharedComponents/SectionHeading";
 
 const Partners = () => {
   return (
     <section className="my-10  py-[2%] ">
       <div className="flex justify-between items-center ">
-        <div>
-          <h3 className="text-[#242424] font-bold text-3xl ">Our Partners</h3>
-          <hr className="w-20 border-t-2 border-[#F15B2D] mt-2" />
-        </div>
+      <SectionHeading title={"Our Partners"}></SectionHeading>
+
         <div className="flex items-center">
           <CiCircleChevLeft className="text-3xl" />
           <CiCircleChevRight className="text-3xl" />

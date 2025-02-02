@@ -1,10 +1,10 @@
+import SectionHeading from "../sharedComponents/SectionHeading";
+
 const Community = () => {
   return (
     <section className="my-10 bg-[#000] py-[2%] px-[10%]">
-      <div>
-        <h3 className="text-[#FFF] font-bold text-3xl ">Our Community</h3>
-        <hr className="w-20 border-t-2 border-[#F15B2D] mt-2" />
-      </div>
+      <SectionHeading title={"Our Community"}></SectionHeading>
+
       <div className="w-1/2 mt-6">
         <p className="text-white opacity-80">
           Bulipe Tech aims to train unemployed individuals in Bangladesh,
