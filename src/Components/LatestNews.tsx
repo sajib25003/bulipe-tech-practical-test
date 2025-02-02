@@ -39,14 +39,14 @@ const LatestNews = () => {
     <section className="my-10  py-[2%] px-[10%]">
       <SectionHeading title={"Latest News"}></SectionHeading>
 
-      <div className="flex bg-[#F2F2F2] mt-6 rounded-l-2xl">
-        <img src={latestNews} className="h-1/2 w-2/5 rounded-l-2xl" />
+      <div className="flex flex-col md:flex-row bg-[#F2F2F2] mt-6 rounded-t-2xl md:rounded-l-2xl">
+        <img src={latestNews} className="md:h-1/2 md:w-2/5 rounded-t-2xl md:rounded-l-2xl" />
         <div className="p-3">
           <p className="bg-[#E6ECEF] p-2 text-[#004464] rounded-lg w-[130px]">
             Current Events
           </p>
 
-          <h3 className="text-xl font-semibold">
+          <h3 className="text-lg md:text-xl font-semibold">
             Judge upholds Donald Trump's conviction, sets sentencing for Jan. 10
             with no penalty
           </h3>
@@ -68,7 +68,7 @@ const LatestNews = () => {
           <BiSolidCaretRightCircle />
         </div>
       </div>
-      <div className="grid grid-cols-3 gap-10">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
         {featureNews.map((news, index) => (
           <div
             key={index}

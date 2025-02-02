@@ -6,7 +6,7 @@ const Testimonials = () => {
     <section className="my-10 bg-[#F2F2F2] py-[2%] px-[10%]">
       <div className="flex justify-between items-center ">
         <div>
-          <h3 className="text-[#242424] font-bold text-3xl ">Testimonials</h3>
+          <h3 className="text-[#242424] font-bold text-lg md:text-2xl lg:text-3xl ">Testimonials</h3>
           <hr className="w-20 border-t-2 border-[#F15B2D] mt-2" />
         </div>
         <div className="flex items-center">
@@ -14,7 +14,7 @@ const Testimonials = () => {
           <CiCircleChevRight className="text-3xl" />
         </div>
       </div>
-      <div className="flex items-center gap-10 mt-10">
+      <div className="flex flex-col md:flex-row items-center gap-10 mt-10">
         <div className="box-border border-l-2 border-l-[#004464] border-r-2 border-r-[#004464] rounded-r-[30px] rounded-l-none bg-white p-6">
           <div className="flex items-start gap-3">
             <img src={userImg} className="h-10 w-10" />

@@ -24,18 +24,18 @@ const Partners = () => {
         <p className="font-normal text-sm">Training Partners</p>
         <p className="font-normal text-sm">Banking Partners</p>
       </div>
-      <div className="flex items-center  gap-6 py-6">
+      <div className="flex flex-col md:flex-row items-center  gap-6 py-6">
         <div className="bg-[#A6E2E2] px-6 py-4 rounded-3xl">
-            <img src={IBM} className="h-10 w-48 " />
+            <img src={IBM} className="h-4 w-20 md:h-10 md:w-48  " />
         </div>
         <div className="bg-[#A6E2E2] px-6 py-4 rounded-3xl">
-            <img src={hostinger} className="h-10 w-48" />
+            <img src={hostinger} className="h-4 w-20 md:h-10 md:w-48  " />
         </div>
         <div className="bg-[#A6E2E2] px-6 py-4 rounded-3xl">
-            <img src={digitalOcean} className="h-10 w-48" />
+            <img src={digitalOcean} className="h-4 w-20 md:h-10 md:w-48  " />
         </div>
         <div className="bg-[#A6E2E2] px-6 py-4 rounded-3xl">
-            <img src={microsoft} className="h-10 w-48" />
+            <img src={microsoft} className="h-4 w-20 md:h-10 md:w-48  " />
         </div>
       </div>
     </section>

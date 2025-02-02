@@ -21,7 +21,7 @@ const Footer2 = () => {
     { name: "Privacy & Policy", url: "" },
   ];
   return (
-    <footer className="bg-[#001823] text-white flex gap-5 px-32  py-10">
+    <footer className="bg-[#001823] text-white flex flex-col md:flex-row gap-5 px-4 lg:px-32  py-10">
       <div className="">
         <div className="flex flex-col gap-3">
           <img src={companyImg} className="h-10 w-[80%]" />
@@ -45,7 +45,7 @@ const Footer2 = () => {
         </div>
       </div>
       <div className="min-w-[20%] space-y-2">
-        <h3 className="uppercase font-bold text-xl mb-6">Addresses</h3>
+        <h3 className="uppercase font-bold text-lg md:text-xl mb-6">Addresses</h3>
         <p className="flex items-center gap-3">
           <FaPhoneAlt /> 01712 944 876
         </p>
@@ -57,18 +57,18 @@ const Footer2 = () => {
           <br /> Block: A, Banani, <br />
           Dhaka-1213
         </p>
-        <h3 className="uppercase font-bold text-[#F15B2D] text-lg mb-6 flex gap-3 items-center">
+        <h3 className="uppercase font-bold text-[#F15B2D] text-md mb-6 flex gap-3 items-center">
           Country Offices <PiCloudArrowUpFill />
         </h3>
       </div>
       <div className="min-w-[20%] space-y-2">
-        <h3 className="uppercase font-bold text-xl mb-6">Quick Links</h3>
+        <h3 className="uppercase font-bold text-lg md:text-xl mb-6">Quick Links</h3>
 
         <ul className="space-y-2">
           {quickLinks.map((link, index) => (
             <li key={index}>
               <a
-                className="flex text-[#F15B2D] font-bold items-center gap-3 uppercase"
+                className="flex text-[#F15B2D] text-sm  md:font-bold items-center gap-3 uppercase"
                 href={link.url}
               >
                 <FaArrowAltCircleRight />
@@ -79,20 +79,20 @@ const Footer2 = () => {
         </ul>
       </div>
       <div className="min-w-[20%] space-y-2">
-        <h3 className="uppercase font-bold text-xl mb-6">Get the app</h3>
-        <div  className="space-y-3">
-          <button className="btn btn-primary bg-gray-800 py-8 border-none rounded-3xl">
-            <FaApple className="text-3xl"/>
+        <h3 className="uppercase font-bold text-lg md:text-xl mb-6">Get the app</h3>
+        <div  className="space-y-3 flex flex-row md:flex-col justify-center md:justify-start gap-2">
+          <button className="btn btn-primary bg-gray-800 px-2   py-8 border-none rounded-3xl">
+            <FaApple className="text-xl md:text-3xl"/>
             <p >
               Download on the <br />
-              <span className="text-xl font-bold">App Store</span>
+              <span className="text-lg md:text-xl font-bold">App Store</span>
             </p>
           </button>
-          <button className="btn btn-primary bg-gray-800 py-8 border-none rounded-3xl">
-            <FaGooglePlay className="text-3xl"/>
+          <button className="btn btn-primary bg-gray-800 px-2   py-8 border-none rounded-3xl">
+            <FaGooglePlay className="text-xl md:text-3xl"/>
             <p >
               Download on the <br />
-              <span className="text-xl font-bold">Google Play</span>
+              <span className="text-lg md:text-xl font-bold">Google Play</span>
             </p>
           </button>
         </div>
